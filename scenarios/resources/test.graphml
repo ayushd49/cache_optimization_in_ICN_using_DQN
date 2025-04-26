@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/d33001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+    <key attr.name="label" attr.type="string" for="node" id="d33" />
+
+    <graph edgedefault="undirected" linkdefault="undirected">
+        <node id="11">
+            <data key="d33">receiver</data>
+        </node>
+        <node id="12">
+            <data key="d33">receiver</data>
+        </node>
+        <node id="13">
+            <data key="d33">receiver</data>
+        </node>
+        <node id="14">
+            <data key="d33">receiver</data>
+        </node>
+        
+        <!-- Second Layer: Root Routers (13 nodes) -->
+        <node id="21">
+            <data key="d33">root router</data>
+        </node>
+        <node id="22">
+            <data key="d33">root router</data>
+        </node>
+        <node id="23">
+            <data key="d33">root router</data>
+        </node>
+        <node id="24">
+            <data key="d33">root router</data>
+        </node>
+        <node id="25">
+            <data key="d33">root router</data>
+        </node>
+        <node id="26">
+            <data key="d33">root router</data>
+        </node>
+        <node id="27">
+            <data key="d33">root router</data>
+        </node>
+        <node id="28">
+            <data key="d33">root router</data>
+        </node>
+        <node id="29">
+            <data key="d33">root router</data>
+        </node>
+        <node id="210">
+            <data key="d33">root router</data>
+        </node>
+        <node id="211">
+            <data key="d33">root router</data>
+        </node>
+        <node id="212">
+            <data key="d33">root router</data>
+        </node>
+        <node id="213">
+            <data key="d33">root router</data>
+        </node>
+
+        <!-- Third Layer: Intermediate Routers (15 nodes) -->
+        <node id="31">
+            <data key="d33">int router</data>
+        </node>
+        <node id="32">
+            <data key="d33">int router</data>
+        </node>
+        <node id="33">
+            <data key="d33">int router</data>
+        </node>
+        <node id="34">
+            <data key="d33">int router</data>
+        </node>
+        <node id="35">
+            <data key="d33">int router</data>
+        </node>
+        <node id="36">
+            <data key="d33">int router</data>
+        </node>
+        <node id="37">
+            <data key="d33">int router</data>
+        </node>
+        <node id="38">
+            <data key="d33">int router</data>
+        </node>
+        <node id="39">
+            <data key="d33">int router</data>
+        </node>
+        <node id="310">
+            <data key="d33">int router</data>
+        </node>
+        <node id="311">
+            <data key="d33">int router</data>
+        </node>
+        <node id="312">
+            <data key="d33">int router</data>
+        </node>
+        <node id="313">
+            <data key="d33">int router</data>
+        </node>
+        <node id="314">
+            <data key="d33">int router</data>
+        </node>
+        <node id="315">
+            <data key="d33">int router</data>
+        </node>
+
+        <!-- Fourth Layer: Edge Routers (1d33 nodes) -->
+        <node id="41">
+            <data key="d33">edge router</data>
+        </node>
+        <node id="42">
+            <data key="d33">edge router</data>
+        </node>
+        <node id="43">
+            <data key="d33">edge router</data>
+        </node>
+        <node id="44">
+            <data key="d33">edge router</data>
+        </node>
+        <node id="45">
+            <data key="d33">edge router</data>
+        </node>
+        <node id="46">
+            <data key="d33">edge router</data>
+        </node>
+        <node id="47">
+            <data key="d33">edge router</data>
+        </node>
+        <node id="48">
+            <data key="d33">edge router</data>
+        </node>
+        <node id="49">
+            <data key="d33">edge router</data>
+        </node>
+        <node id="410">
+            <data key="d33">edge router</data>
+        </node>
+        <node id="411">
+            <data key="d33">edge router</data>
+        </node>
+        <node id="412">
+            <data key="d33">edge router</data>
+        </node>
+
+        <!-- Fifth Layer: Sources (6 nodes) -->
+        <node id="51">
+            <data key="d33">source</data>
+        </node>
+        <node id="52">
+            <data key="d33">source</data>
+        </node>
+        <node id="53">
+            <data key="d33">source</data>
+        </node>
+        <node id="54">
+            <data key="d33">source</data>
+        </node>
+        <node id="55">
+            <data key="d33">source</data>
+        </node>
+        <node id="56">
+            <data key="d33">source</data>
+        </node>
+        
+        <!-- Edges: Connecting layers based on specified logic -->
+        <!-- Connect each receiver to root routers -->
+        <edge source="11" target="21"/>
+        <edge source="11" target="22"/>
+        <edge source="12" target="23"/>
+        <edge source="12" target="24"/>
+        <edge source="13" target="25"/>
+        <edge source="13" target="26"/>
+        <edge source="14" target="27"/>
+        <edge source="14" target="28"/>
+        
+        <!-- Connect each root router to intermediate routers -->
+        <edge source="21" target="31"/>
+        <edge source="21" target="32"/>
+        <edge source="22" target="33"/>
+        <edge source="22" target="34"/>
+        <edge source="23" target="35"/>
+        <edge source="23" target="36"/>
+        <edge source="24" target="37"/>
+        <edge source="24" target="38"/>
+        <edge source="25" target="39"/>
+        <edge source="25" target="310"/>
+        <edge source="26" target="311"/>
+        <edge source="26" target="312"/>
+        <edge source="27" target="313"/>
+        <edge source="27" target="314"/>
+        <edge source="28" target="315"/>
+        <edge source="29" target="31"/>
+        <edge source="29" target="32"/>
+        <edge source="210" target="33"/>
+        <edge source="210" target="34"/>
+        <edge source="211" target="35"/>
+        <edge source="211" target="36"/>
+        <edge source="212" target="37"/>
+        <edge source="212" target="38"/>
+        <edge source="213" target="39"/>
+        <edge source="213" target="310"/>
+        
+        <!-- Connect each intermediate router to root routers and edge routers -->
+        <edge source="31" target="21"/>
+        <edge source="31" target="22"/>
+        <edge source="32" target="23"/>
+        <edge source="32" target="24"/>
+        <edge source="33" target="25"/>
+        <edge source="33" target="26"/>
+        <edge source="34" target="27"/>
+        <edge source="34" target="28"/>
+        <edge source="35" target="29"/>
+        <edge source="35" target="210"/>
+        <edge source="36" target="211"/>
+        <edge source="36" target="212"/>
+        <edge source="37" target="213"/>
+        <edge source="38" target="21"/>
+        <edge source="39" target="22"/>
+        <edge source="310" target="23"/>
+        <edge source="311" target="24"/>
+        <edge source="312" target="25"/>
+        <edge source="313" target="26"/>
+        <edge source="314" target="27"/>
+        <edge source="315" target="28"/>
+        <edge source="31" target="41"/>
+        <edge source="32" target="42"/>
+        <edge source="33" target="43"/>
+        <edge source="34" target="44"/>
+        <edge source="35" target="45"/>
+        <edge source="36" target="46"/>
+        <edge source="37" target="47"/>
+        <edge source="38" target="48"/>
+        <edge source="39" target="49"/>
+        <edge source="310" target="410"/>
+        <edge source="311" target="411"/>
+        <edge source="312" target="412"/>
+        <edge source="313" target="41"/>
+        <edge source="314" target="42"/>
+        <edge source="315" target="43"/>
+        
+        <!-- Connect each edge router to intermediate routers and sources -->
+        <edge source="41" target="31"/>
+        <edge source="41" target="32"/>
+        <edge source="42" target="33"/>
+        <edge source="42" target="34"/>
+        <edge source="43" target="35"/>
+        <edge source="43" target="36"/>
+        <edge source="44" target="37"/>
+        <edge source="44" target="38"/>
+        <edge source="45" target="39"/>
+        <edge source="45" target="310"/>
+        <edge source="46" target="311"/>
+        <edge source="46" target="312"/>
+        <edge source="47" target="313"/>
+        <edge source="47" target="314"/>
+        <edge source="48" target="315"/>
+        <edge source="49" target="31"/>
+        <edge source="49" target="32"/>
+        <edge source="410" target="33"/>
+        <edge source="410" target="34"/>
+        <edge source="411" target="35"/>
+        <edge source="411" target="36"/>
+        <edge source="412" target="37"/>
+        <edge source="412" target="38"/>
+        <edge source="41" target="51"/>
+        <edge source="42" target="52"/>
+        <edge source="43" target="53"/>
+        <edge source="44" target="54"/>
+        <edge source="45" target="55"/>
+        <edge source="46" target="56"/>
+        <edge source="47" target="51"/>
+        <edge source="48" target="52"/>
+        <edge source="49" target="53"/>
+        <edge source="410" target="54"/>
+        <edge source="411" target="55"/>
+        <edge source="412" target="56"/>
+    </graph>
+</graphml>
